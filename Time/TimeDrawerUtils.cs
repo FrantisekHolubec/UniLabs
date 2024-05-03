@@ -103,7 +103,7 @@ namespace UniLabs.Time
             var sec = currentValue.Second;
             var milliSec = currentValue.Millisecond;
 
-            SirenixEditorGUI.BeginVerticalPropertyLayout(label);
+            var verticalRect = SirenixEditorGUI.BeginVerticalPropertyLayout(label);
             EditorGUI.BeginChangeCheck();
             EditorGUILayout.BeginHorizontal();
             {
@@ -123,7 +123,7 @@ namespace UniLabs.Time
                     {
                         valueSetter?.Invoke(dateTime);
                     });
-                    dateTimePicker.ShowInPopup();
+                    dateTimePicker.ShowInPopup(rect);
                 }
 
             }
