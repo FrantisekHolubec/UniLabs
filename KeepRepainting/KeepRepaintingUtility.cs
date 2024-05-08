@@ -113,7 +113,7 @@ namespace UniLabs.KeepRepainting
                 foreach (var drawer in Drawers)
                 {
                     if (drawer.Property.State.Visible &&
-                        UnityEngine.Time.realtimeSinceStartup - LastRepaint >= drawer.Attribute.RefreshFrequency &&
+                        UnityEngine.Time.realtimeSinceStartup - LastRepaint >= drawer.Attribute.RepaintInterval &&
                         drawer.Attribute.RepaintEditorMode.IsCurrentEditorMode() &&
                         drawer.RepaintIfResolver.GetValue())
                     {
