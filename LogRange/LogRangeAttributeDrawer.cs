@@ -84,6 +84,7 @@ namespace UniLabs.LogRange
         }
     }
 
+    // Inspired by https://gist.github.com/bartofzo/6ad28a05ba9fc82e10a64f0c121c5c24
     public class LogRangeHelper
     {
         private readonly ValueResolver<float> _getterMinValue;
