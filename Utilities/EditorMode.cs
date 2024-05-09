@@ -4,7 +4,7 @@
 using System;
 using UnityEditor;
 
-namespace UniLabs.Utilities.Editor
+namespace UniLabs.Utilities
 {
     [Flags]
     public enum EditorMode

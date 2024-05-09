@@ -3,7 +3,7 @@
 
 using System;
 using System.Diagnostics;
-using UniLabs.Utilities.Editor;
+using UniLabs.Utilities;
 
 namespace UniLabs.KeepRepainting
 {

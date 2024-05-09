@@ -1,6 +1,7 @@
 ﻿// Author: František Holubec
 // Copyright (c) UniLabs
 
+#if UNITY_EDITOR
 using System;
 using Sirenix.OdinInspector.Editor;
 
@@ -49,6 +50,6 @@ namespace UniLabs.Utilities.Editor
             property.ValueEntry.ApplyChanges();
             if (alsoMarkRootDirty) property.MarkSerializationRootDirty();
         }
-
     }
 }
+#endif

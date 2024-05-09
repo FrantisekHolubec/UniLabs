@@ -1,7 +1,12 @@
 {
-    "name": "UniLabs.Utilities",
+    "name": "UniLabs",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "Sirenix.OdinInspector.Editor",
+        "Sirenix.OdinInspector.Attributes",
+        "Sirenix.Utilities.Editor",
+        "Sirenix.Utilities"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
